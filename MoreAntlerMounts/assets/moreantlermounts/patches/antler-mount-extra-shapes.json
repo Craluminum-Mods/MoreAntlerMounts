@@ -1,0 +1,19 @@
+[
+    {
+        "op": "addeach",
+        "path": "/attributes/types/-",
+        "value": [
+            //
+            "heart",
+            "round",
+            "cross",
+            "triangle",
+            "trapezoid",
+            "parallelogram",
+            "pentagon",
+            "hexagon"
+        ],
+        "file": "game:blocktypes/wood/woodtyped/antlermount.json",
+        "side": "Server"
+    }
+]
