@@ -1,0 +1,105 @@
+// Vanilla:
+// square           P_P,_L_,P_P
+// diamond          _P_,PLP,_P_
+// shield           P_P,PLP
+
+// Mod:
+// round            PP,L_,PP
+// cross            PP,_L,PP
+// parallelogram    _PP,_L_,PP_
+// heart            P_P,P_P,_L_
+// triangle         PPP,_L_,_P_
+// trapezoid        PPP,_P_,_L_
+// pentagon         PP_,PL_,__P
+// hexagon          _PP,_LP,P__
+
+[
+    {
+        "name": "Antler mount (round)",
+        "ingredientPattern": "PP,L_,PP",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "round", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (cross)",
+        "ingredientPattern": "PP,_L,PP",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "cross", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (parallelogram)",
+        "ingredientPattern": "_PP,_L_,PP_",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "parallelogram", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (heart)",
+        "ingredientPattern": "P_P,P_P,_L_",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "heart", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (triangle)",
+        "ingredientPattern": "PPP,_L_,_P_",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "triangle", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (trapezoid)",
+        "ingredientPattern": "PPP,_P_,_L_",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "trapezoid", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (pentagon)",
+        "ingredientPattern": "PP_,PL_,__P",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "pentagon", "material": "{wood}" } }
+    },
+    {
+        "name": "Antler mount (hexagon)",
+        "ingredientPattern": "_PP,_LP,P__",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": ["plain", "orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], "quantity": 1 },
+            "P": { "type": "item", "code": "game:plank-*", "name": "wood", "quantity": 1 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "game:antlermount", "quantity": 1, "attributes": { "type": "hexagon", "material": "{wood}" } }
+    }
+]
